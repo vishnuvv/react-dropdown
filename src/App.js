@@ -45,13 +45,6 @@ class App extends React.Component {
     });
   }
 
-  /*successNotification = () => {
-    return (
-      <Toast>
-        <Toast.Body>File uploaded sucessfully</Toast.Body>
-      </Toast>
-    )
-  }*/
   render(){
     const fileUploaded = this.state.fileUploaded;
     let dropdownContainer = '';
@@ -87,7 +80,6 @@ class App extends React.Component {
                     bottom: '20px',
                     right: '50%'
                   }}>
-                  <Toast.Header closeButton="true"></Toast.Header>
                   <Toast.Body>File uploaded sucessfully</Toast.Body>
                 </Toast>
               }
